@@ -29,14 +29,17 @@ input {
 }
 
 .card {
-    border-radius: 20px;
-    padding: 15px;
+    height: 550px;
+    /*width: 100% */
+    border-radius: 30px;
+    padding: 20px 10px;
     text-align: center;
     background-color: #151F30;
 }
 
 .thumbnail {
-    height: 350px;
+    object-fit: cover;
+    height: 450px;
     width: 300px;
     border-radius: 20px;
 }
